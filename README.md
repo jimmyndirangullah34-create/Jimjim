@@ -1,5 +1,4 @@
-Here is a clean, professional, ready-to-use README description for your GTA-style mobile/PC browser game.
-You can copy-paste this directly into your repository’s README.md.
+
 
 ==============================> GTA-Style Mobile & PC Browser Game
 
