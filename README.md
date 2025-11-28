@@ -127,7 +127,7 @@ Play instantly in your browser
 
 No setup or build process required.
 
-🎯 Future Upgrades (Optional)
+====================== Future Upgrades .=====================
 
 If you want to extend the game, here are planned enhancements:
 
