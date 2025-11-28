@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA 5 Mobile Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <canvas id="gameCanvas" width="1400" height="900"></canvas>
+
+  <div id="hud">🚶 100%</div>
+
+  <div id="controls">
+    <button id="shootBtn">Shoot</button>
+    <button id="mapBtn">Toggle Map</button>
+    <button id="pauseBtn">Pause</button>
+  </div>
+
+  <!-- Mobile Joystick -->
+  <div id="joystick">
+    <div id="stick"></div>
+  </div>
+
+  <!-- Pause Menu -->
+  <div id="pauseMenu">
+    <h2>Game Paused</h2>
+    <button id="resumeBtn">Resume</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

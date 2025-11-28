@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+canvas {
+  background: #222;
+  display: block;
+}
+#hud {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+  color: white;
+  z-index: 10;
+}
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  gap: 12px;
+}
+button {
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+#pauseMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,0.8);
+  padding: 40px;
+  color: white;
+  display: none;
+  z-index: 20;
+  border-radius: 10px;
+}
+#joystick {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 120px;
+  height: 120px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%;
+  z-index: 10;
+  touch-action: none;
+}
+#stick {
+  width: 45px;
+  height: 45px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 37px;
+  left: 37px;
+}
